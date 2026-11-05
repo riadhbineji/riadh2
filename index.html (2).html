@@ -1,0 +1,135 @@
+<!DOCTYPE html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>٣-٢ علاقات التغذية</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap">
+<style>
+:root{--bg:#fff7ec;--c:#fff;--t:#1f1b3b;--m:#5a5575;--b:#eadfc9;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#15122b;--c:#211e40;--t:#f4f1ff;--m:#b9b3d9;--b:#3b3668}}
+:root[data-theme=dark]{--bg:#15122b;--c:#211e40;--t:#f4f1ff;--m:#b9b3d9;--b:#3b3668}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--t);font:400 16px/1.8 Cairo,Tahoma,Arial,sans-serif}
+button,input{font-family:inherit}
+.hd{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;padding:16px;color:#fff;background:linear-gradient(100deg,#15803d,#0e7490,#1d4ed8,#7e22ce,#be185d,#c2410c)}
+.hd h1{margin:0;font-size:clamp(20px,4.5vw,34px);font-weight:900;line-height:1.4}.hd p{margin:0}
+.ib{width:46px;height:46px;margin-inline-start:8px;border:2px solid #fffb;border-radius:12px;background:#ffffff33;color:#fff;font-size:22px;cursor:pointer;display:inline-grid;place-items:center}
+:is(button,input):focus-visible{outline:3px solid #f59e0b;outline-offset:2px}
+nav{display:flex;gap:8px;padding:12px;overflow-x:auto}
+nav button{flex:none;padding:8px 16px;border:2px solid var(--k);border-radius:99px;background:var(--c);color:var(--t);font:700 15px Cairo,Tahoma,sans-serif;cursor:pointer}
+nav button[aria-selected=true]{background:var(--k);color:#fff}
+main{max-width:980px;margin:0 auto;padding:0 12px 24px}
+section{display:none}section.on{display:block}
+h2{margin:4px 0 12px;padding:8px 16px;border-radius:14px;background:var(--k);color:#fff;font-size:22px}
+.cd{margin:0 0 12px;padding:12px 16px;border:2px solid var(--b);border-top:6px solid var(--k);border-radius:14px;background:var(--c)}
+.cd h3{margin:0 0 4px;font-size:18px}.cd p{margin:4px 0}
+.g{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:0 12px}
+.tw{overflow-x:auto}table{width:100%;border-collapse:collapse}
+th,td{padding:6px 10px;border:1px solid var(--b);text-align:right;vertical-align:top}th{background:var(--k);color:#fff}
+.eq{display:inline-block;direction:ltr;unicode-bidi:isolate}
+.ch{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0}.ch span{font-weight:900;color:var(--m)}.ch label{font-weight:700;cursor:pointer}
+.st{padding:8px 12px;border:0;border-radius:12px;background:var(--b);color:var(--t);font:700 15px Cairo,Tahoma,sans-serif;cursor:pointer;transition:.3s}
+.st.on{background:var(--k);color:#fff;transform:scale(1.06)}
+.bt{padding:8px 16px;border:0;border-radius:12px;background:var(--k);color:#fff;font:700 16px Cairo,Tahoma,sans-serif;cursor:pointer}
+.ly{display:block;width:100%;margin:4px 0;padding:10px;border:0;border-radius:10px;color:#1f1b3b;font:700 16px Cairo,Tahoma,sans-serif;cursor:pointer}
+.pb{min-width:150px;min-height:42px;margin:4px auto;padding:4px 8px;border-radius:8px;display:grid;place-items:center;text-align:center;color:#fff;font-weight:700;line-height:1.3;cursor:pointer;animation:g .5s}
+@keyframes g{from{transform:scaleX(.3);opacity:.4}}
+.pg{height:8px;border-radius:8px;overflow:hidden;background:var(--b)}.pg i{display:block;height:100%;background:linear-gradient(90deg,#15803d,#1d4ed8,#be185d);transition:width .4s}
+.op{display:block;width:100%;margin:6px 0;padding:10px 14px;border:2px solid var(--b);border-radius:12px;background:var(--c);color:var(--t);text-align:right;font:600 16px Cairo,Tahoma,sans-serif;cursor:pointer}
+.op.ok{background:#15803d;border-color:#15803d;color:#fff}.op.no{background:#b91c1c;border-color:#b91c1c;color:#fff}
+.rs{padding:16px;border:4px solid transparent;border-radius:14px;text-align:center;background:linear-gradient(var(--c),var(--c)) padding-box,linear-gradient(100deg,#15803d,#1d4ed8,#be185d,#c2410c) border-box}
+footer{padding:12px;text-align:center;color:#fff;font-weight:700;background:linear-gradient(100deg,#c2410c,#be185d,#7e22ce,#1d4ed8,#0e7490,#15803d)}
+#ts{display:none;position:fixed;left:50%;bottom:calc(16px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);max-width:90%;padding:8px 16px;border-radius:10px;background:#1f1b3b;color:#fff}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style></head><body>
+<header class="hd"><div><h1>مدرسة الخليل بن عبد الله <bdi>11-12</bdi></h1><p>العلوم البيئية · الصف الحادي عشر · الوحدة الثالثة: التفاعلات في النظم البيئية البحرية</p><p><b>٣-٢ علاقات التغذية</b> · إعداد: رياض بن ناجي بن عمر</p></div>
+<div><button class="ib" id="mu" title="الصوت" aria-label="تشغيل الصوت أو إيقافه">🔊</button><button class="ib" id="fs" title="تكبير الشاشة" aria-label="تكبير الشاشة"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path id="fp" d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button></div></header>
+<nav id="nv" role="tablist"></nav>
+<main>
+<section><h2>أنماط التغذية</h2>
+<div class="cd"><p>تعتمد كل أشكال الحياة على الطاقة التي تثبّتها <b>المنتجات</b>، وهي كائنات <b>ذاتية التغذية</b> Autotrophic تصنع غذاءها بنفسها من جزيئات غير عضوية بسيطة مثل ثاني أكسيد الكربون. أما الكائنات <b>غير ذاتية التغذية</b> Heterotrophic فتحصل على طاقتها بالتغذي على كائنات حية أخرى.</p></div>
+<div class="cd tw"><h3>مقارنة بين أنماط التغذية</h3><table><tr><th></th><th>ذاتية التغذية الضوئية ☀️</th><th>ذاتية التغذية الكيميائية 🔥</th><th>غير ذاتية التغذية 🐟</th></tr>
+<tr><td>مصدر الطاقة</td><td>ضوء الشمس (التمثيل الضوئي)</td><td>مواد كيميائية مثل كبريتيد الهيدروجين (التمثيل الكيميائي)</td><td>التغذي على المنتجات أو المستهلكات</td></tr>
+<tr><td>مكانها</td><td>المنطقة الضوئية (نحو 200 م)</td><td>الفوهات المائية الحرارية في القاع (من نحو 2000 م إلى 7700 م)</td><td>جميع مستويات المحيط</td></tr>
+<tr><td>أمثلة</td><td>العوالق النباتية، طحلب الكلب Kelp، حشائش البحر</td><td>بكتيريا محبة للظروف القاسية (حرارة 2 – 400 °م)، اكتُشفت عام 1977</td><td>الحيوانات والفطريات والأوليات الحيوانية ومعظم البكتيريا</td></tr></table></div>
+<div class="cd"><h3>سلسلة غذائية في المحيط (اضغط على كل حلقة)</h3><div class="ch" id="fc"></div><p id="fi">اختر كائنًا لتعرف مستواه الغذائي.</p></div>
+<div class="cd tw"><h3>جدول ٣-٢ · أمثلة على كائنات بحرية ونوع تغذيتها</h3><table><tr><th>النوع</th><th>مثال من النظام البيئي البحري</th></tr>
+<tr><td>🌿 آكل الأعشاب</td><td>أسماك الببغاء التي تتغذى على الطحالب في الشعاب المرجانية</td></tr>
+<tr><td>🦀 القارت</td><td>نوع سرطان البحر الذي يأكل الطحالب وصغار الأسماك واللافقاريات الصغيرة</td></tr>
+<tr><td>🦭 آكل اللحوم</td><td>الفقمات التي تصطاد وتأكل الحبار والروبيان والأسماك</td></tr></table></div>
+<div class="cd"><h3>العوالق الحيوانية Zooplankton</h3><p>مستهلكات مهمة تشمل مجدافيات الأرجل (تتغذى على الدياتومات) والمثقبات (حيوانات وحيدة الخلية بأصداف من كربونات الكالسيوم) والكريل Krill، وهو قارت يشبه الروبيان وغذاء مهم للطيور والأسماك والفقمات والحيتان البالينية. وتمثل المحللات المرحلة الأخيرة في أي علاقة غذائية.</p></div></section>
+
+<section><h2>الافتراس</h2>
+<div class="g"><div class="cd"><h3>🦈 المفترس Predator</h3><p>حيوان يصطاد ويقتل ويأكل حيوانات أخرى، وقد يكون مستهلكًا ثانويًا أو ثالثيًا أو رابعيًا.</p><p><b>تكيفاته:</b> السرعة والرشاقة، التمويه، الأسنان الكبيرة، السم، الصيد في مجموعات.</p></div>
+<div class="cd"><h3>🐟 الفريسة Prey</h3><p>حيوان تأكله الحيوانات المفترسة.</p><p><b>دفاعاتها:</b> التمويه، الأشواك الدفاعية، الاختباء في أماكن آمنة، الهروب.</p></div></div>
+<div class="cd"><h3>⭐ ماذا لو غاب نجم البحر؟</h3><p>يأكل نجم البحر بلح البحر (الصورة ٣-٤)، فيحفظ التوازن الصحي للجماعة الأحيائية.</p><div class="ch" id="c2"></div><button class="bt" onclick="run('c2')">▶ شغّل السلسلة</button></div></section>
+
+<section><h2>الإنتاجية والمنطقة الضوئية</h2>
+<div class="g"><div class="cd"><h3>الإنتاجية الأولية</h3><p>معدل إنتاج الكتلة الحيوية الجديدة بواسطة الكائنات ذاتية التغذية في وحدة مساحة أو حجم لكل وحدة زمنية. مصبات الأنهار والمستنقعات والسبخات الأعلى إنتاجية لكل وحدة مساحة، أما المحيطات فتساهم بأعلى إنتاجية إجمالية لاتساع مساحتها.</p></div>
+<div class="cd"><h3>صافي الإنتاجية والإنتاجية الثانوية</h3><p><b>صافي الإنتاجية الأولية:</b> الكتلة الحيوية المتبقية بعد التنفس والمتاحة للمستهلكات.</p><p><b>الإنتاجية الثانوية:</b> معدل إنتاج الكتلة الحيوية الجديدة بواسطة المستهلكات بعد تغذيها على المنتجات.</p></div></div>
+<div class="cd"><h3>طبقات الماء في المحيط (الشكل ٣-١) · اضغط على طبقة</h3><div id="ly"></div><p id="li"></p></div>
+<div class="cd tw"><h3>العوامل المؤثرة: الحرارة والمغذيات وشدة الضوء</h3><table><tr><th>المنطقة</th><th>ما يحدث</th><th>النتيجة</th></tr>
+<tr><td>🌴 الاستوائية</td><td>ضوء وفير وماء دافئ يكوّن منحدرًا حراريًا يقلل اختلاط المياه العميقة بالسطحية</td><td>نقص المغذيات يحد من الإنتاجية</td></tr>
+<tr><td>❄️ القطبية</td><td>برودة المياه تزيد الخلط فتصعد مغذيات كثيرة</td><td>سلاسل غذائية أطول (5 – 6 مستويات صيفًا)</td></tr>
+<tr><td>🌊 التيارات الصاعدة</td><td>تحمل المغذيات من الأعماق إلى السطح</td><td>مناطق غنية بالحياة البحرية</td></tr></table></div>
+<div class="cd"><h3>🌿 الإثراء الغذائي وازدهار الطحالب Algal bloom</h3><div class="ch" id="c3"></div><button class="bt" onclick="run('c3')">▶ شغّل السلسلة</button><p>قد يصل العدد إلى خمسة ملايين خلية طحلب لكل لتر ماء. وبعض الطحالب ينتج سمومًا تقتل الدلافين والحيتان وتسمم من يأكل المحاريات الملوثة.</p></div></section>
+
+<section><h2>انتقال الطاقة عبر السلسلة الغذائية</h2>
+<div class="g"><div class="cd"><h3>☀️ من الشمس إلى المنتجات</h3><p>يُعكس بعض الإشعاع أو يتشتت أو يُمتص بالماء، وبعضه بطول موجي غير مناسب (الكلوروفيل يمتص الأحمر والأزرق ويعكس الأخضر). وتُفقد طاقة حرارةً أثناء التمثيل الضوئي، فتثبّت المنتجات نحو 0.06% فقط من الطاقة الشمسية المتاحة في الماء، وقد تصل إلى 1% (الشكل ٣-٢).</p></div>
+<div class="cd"><h3>معادلة انتقال الطاقة</h3><p class="eq" style="font-size:26px;font-weight:900">C = P + R + F + U</p><p>C الطاقة المستهلكة · R المستخدمة في التنفس · F الموجودة في البراز · U الموجودة في البول وفضلات الأيض · P المتبقية لإنتاج كتلة حيوية جديدة وتنتقل للمستوى التالي.</p></div></div>
+<div class="cd"><h3>كفاءة الانتقال نحو 10%</h3><label>طاقة المنتجات (kJ): <input id="ei" type="number" value="10000" min="1" style="width:120px"></label><div id="eb"></div><p>تختلف الكفاءة بحسب كمية الطعام المؤكل، وسهولة هضمه وتمثيله، والطاقة المستخدمة في الحركة، والفاقد في الأيض.</p></div>
+<div class="cd"><h3>مثال الكتاب · الشكل ٣-٧ (kJ/m²/year)</h3><p>الشمس <span class="eq">1.6×10⁶</span> ← المنتجات 72567 (محللات 23009، تنفس 43137) ← المستهلكات الأولية 6421 (محللات 2389، تنفس Y) ← المستهلكات الثانوية 598 (محللات 67، تنفس X). القاعدة: مجموع الدخل = مجموع الخروج.</p><button class="bt" onclick="rv()">اكشف الحل</button><p id="rv"></p></div></section>
+
+<section><h2>الأهرامات البيئية</h2>
+<div class="cd"><div class="ch" id="pt"></div><div id="pv"></div><div class="ch"><label><input type="checkbox" id="bl" onchange="py(1)"> 🌊 ازدهار الطحالب</label><label id="ivl"><input type="checkbox" id="iv" onchange="py(1)"> هرم مقلوب</label></div><p id="pi"></p><p><small>الأهرامات رسوم تقريبية، فلا يلزم رسمها بمقياس. اضغط على أي شريط لتسمع نغمته.</small></p></div>
+<div class="cd tw"><h3>مقارنة بين الأهرامات الثلاثة</h3><table><tr><th></th><th>هرم الأعداد</th><th>هرم الكتلة الحيوية</th><th>هرم الطاقة</th></tr>
+<tr><td>ماذا يبين؟</td><td>عدد الكائنات في كل مستوى غذائي في لحظة معينة</td><td>الكتلة الحيوية الجافة في كل مستوى</td><td>معدل إنتاج الكتلة الحيوية (kJ/m²/year)</td></tr>
+<tr><td>هل يُقلب؟</td><td>أحيانًا (طفيليات على سمكة كبيرة)</td><td>أحيانًا (عوالق نباتية سريعة التكاثر)</td><td>لا أبدًا</td></tr>
+<tr><td>صعوباته</td><td>لا يراعي حجم الكائن ويتغير بحسب الوقت وكمية الصيد</td><td>قياس الكتلة الجافة يتطلب قتل الكائنات وقد تتغير الكتلة بعد القياس</td><td>الأصعب إنتاجًا لأنه يحتاج بيانات تُجمع عادة طوال سنة</td></tr></table></div></section>
+
+<section><h2>التقويم الختامي</h2><div class="cd" id="qz"></div></section>
+</main>
+<footer>مدرسة الخليل بن عبد الله <bdi>11-12</bdi> · رياض بن ناجي بن عمر</footer>
+<div id="ts" role="status"></div>
+<script>
+const $=i=>document.getElementById(i),C=['#15803d','#b45309','#c2410c','#1d4ed8','#7e22ce'],M='التكبير غير متاح داخل هذه النافذة؛ افتح الصفحة في علامة تبويب مستقلة.';
+let ac,mu=0,pk='n',qi=0,sc=0,lk=0,ao={AO1:[0,0],AO2:[0,0]};
+function tn(f,d,t,v,s){if(mu)return;try{ac=ac||new(window.AudioContext||window.webkitAudioContext)();if(ac.state=='suspended')ac.resume();const o=ac.createOscillator(),g=ac.createGain(),n=ac.currentTime+(s||0);o.type=t||'sine';o.frequency.value=f;g.gain.setValueAtTime(v||.18,n);g.gain.exponentialRampToValueAtTime(.001,n+d);o.connect(g);g.connect(ac.destination);o.start(n);o.stop(n+d)}catch(e){}}
+const snd={c:()=>tn(700,.08,'triangle'),s:i=>tn(330+i*80,.22),ok:()=>[523,659,784].forEach((f,i)=>tn(f,.2,'sine',.2,i*.1)),no:()=>{tn(190,.3,'sawtooth',.1);tn(140,.35,'sawtooth',.1,.15)},win:()=>[523,659,784,1047,784,1047].forEach((f,i)=>tn(f,.22,'triangle',.2,i*.13))};
+function toast(m){const t=$('ts');t.textContent=m;t.style.display='block';setTimeout(()=>t.style.display='none',3000)}
+$('mu').onclick=()=>{mu=!mu;$('mu').textContent=mu?'🔇':'🔊';snd.c()};
+$('fs').onclick=()=>{const d=document,e=d.documentElement;try{if(d.fullscreenElement||d.webkitFullscreenElement)(d.exitFullscreen||d.webkitExitFullscreen).call(d);else{const r=e.requestFullscreen||e.webkitRequestFullscreen;if(!r)return toast(M);const p=r.call(e);p&&p.catch&&p.catch(()=>toast(M))}}catch(x){toast(M)}};
+['fullscreenchange','webkitfullscreenchange'].forEach(v=>document.addEventListener(v,()=>$('fp').setAttribute('d',document.fullscreenElement||document.webkitFullscreenElement?'M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5':'M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5')));
+const T=['أنماط التغذية','الافتراس','الإنتاجية','انتقال الطاقة','الأهرامات','التقويم الختامي'],K=['#15803d','#c2410c','#1d4ed8','#7e22ce','#be185d','#0f766e'];
+$('nv').innerHTML=T.map((t,i)=>`<button role="tab" style="--k:${K[i]}" onclick="sh(${i})">${t}</button>`).join('');
+function sh(i,q){if(!q)snd.c();document.querySelectorAll('section').forEach((s,j)=>{s.classList.toggle('on',j==i);s.style.setProperty('--k',K[j])});document.querySelectorAll('#nv button').forEach((b,j)=>b.setAttribute('aria-selected',j==i));if(i==4)py()}
+const F=[['🦠','السوطيات الدوارة','منتج: يبدأ السلسلة الغذائية بالتمثيل الضوئي.'],['🦐','جمبري','مستهلك أولي: يتغذى مباشرة على المنتجات.'],['🐟','سمك التونة','مستهلك ثانوي: يتغذى على المستهلكات الأولية.'],['🐠','سمك المرلين','مستهلك ثالثي: يتغذى على المستهلكات الثانوية.'],['🦈','سمك القرش','مستهلك رابعي: من النادر جدًا وجود مستويات أعلى بسبب انخفاض الطاقة المتاحة.'],['🍄','المحللات','بكتيريا وفطريات تفكك المغذيات العضوية بعد الموت فتعود إلى البيئة.']];
+$('fc').innerHTML=F.map((f,i)=>(i?'<span>←</span>':'')+`<button class="st" onclick="fcl(${i},this)">${f[0]}<br>${f[1]}</button>`).join('');
+function fcl(i,b){document.querySelectorAll('#fc .st').forEach(x=>x.classList.remove('on'));b.classList.add('on');$('fi').textContent=F[i][2];snd.s(i)}
+const CH={c2:['غياب نجم البحر (المفترس)','تزداد أعداد بلح البحر وقنافذ البحر والمحار','تدمر غابة طحلب الكلب','تتأثر الأنواع التي تتغذى على الكلب أو تعيش فيه'],c3:['زيادة المغذيات (نترات وفوسفات)','تكاثر سريع للعوالق النباتية','موتها وتحللها بالبكتيريا','استهلاك الأكسجين المذاب','نقص الأكسجين وموت الكائنات غير ذاتية التغذية']};
+for(const id in CH)$(id).innerHTML=CH[id].map((s,i)=>(i?'<span>←</span>':'')+`<b class="st">${s}</b>`).join('');
+function run(id){const b=$(id).querySelectorAll('.st');b.forEach(x=>x.classList.remove('on'));b.forEach((x,i)=>setTimeout(()=>{x.classList.add('on');snd.s(i)},i*900))}
+const LY=[['المنطقة الضوئية','0 – 200 م','#fde047',56,'الضوء كافٍ للتمثيل الضوئي، وتوجد فيها غالبية الكتلة الحيوية (نحو 90% من الحياة البحرية).'],['المنحدر الحراري','200 – 1000 م','#86efac',100,'طبقة انتقالية يقل فيها اختلاط الطبقتين؛ وتكون الإنتاجية الأعلى عادة بقربه حيث التوازن الأمثل بين الضوء والحرارة والمغذيات.'],['المياه العميقة','1000 – 5000 م (قاع المحيط)','#93c5fd',170,'معظم المياه الغنية بالمغذيات تحت المنحدر الحراري، ولا يصلها الضوء؛ وفي القاع فوهات حرارية تعيش حولها كائنات التمثيل الكيميائي.']];
+$('ly').innerHTML=LY.map((l,i)=>`<button class="ly" style="background:${l[2]};min-height:${l[3]}px" onclick="lyc(${i})">${l[0]} · ${l[1]}</button>`).join('');
+function lyc(i){$('li').textContent=LY[i][4];snd.s(i)}
+function en(){const e=+$('ei').value||0,n=['المنتجات 100%','المستهلكات الأولية 10%','الثانوية 1%','الثالثية 0.1%'];$('eb').innerHTML=[1,.1,.01,.001].map((x,i)=>`<div class="pb" style="width:${[100,70,45,30][i]}%;background:${C[i]}" onclick="snd.s(${i})">${n[i]}: ${+(e*x).toPrecision(4)} kJ</div>`).join('')}
+$('ei').oninput=en;
+function rv(){snd.ok();$('rv').innerHTML='<span class="eq">X = 598 − 67 = <b>531</b></span> · <span class="eq">Y = 6421 − 2389 − 598 = <b>3434</b></span><br>من الشمس إلى المنتجات: <span class="eq">(72567 ÷ 1.6×10⁶) × 100 = <b>4.54%</b></span><br>من المنتجات إلى المستهلكات الأولية: <span class="eq">(6421 ÷ 72567) × 100 ≈ <b>8.85%</b></span>'}
+const L=['عوالق نباتية','عوالق حيوانية','كريل','سلمون','قمل البحر'];
+const P={n:['هرم الأعداد',[100,70,45,18,34],L,'عدد الكائنات في كل مستوى غذائي في لحظة معينة. قد يظهر مقلوبًا جزئيًا: قمل البحر (طفيليات صغيرة) يتغذى على سمكة كبيرة (الشكل ٣-٤).'],b:['هرم الكتلة الحيوية',[100,70,25,12,5],L,'الكتلة الحيوية الجافة المقاسة في لحظة معينة تسمى المحصول القائم Standing crop، وتنخفض عبر السلسلة (الشكل ٣-٥ أ).'],e:['هرم الطاقة',[100,40,16,6],['المنتجات 100%','المستهلكات الأولية 10%','المستهلكات الثانوية 1%','المستهلكات الثالثية 0.1%'],'يبين معدل إنتاج الكتلة الحيوية؛ لا يكون مقلوبًا أبدًا، وهو الأكثر فائدة لفهم النظام البيئي وإن كان الأصعب إنتاجًا (الشكل ٣-٦).']};
+$('pt').innerHTML=Object.keys(P).map(k=>`<button class="bt" onclick="pk='${k}';py(1)">${P[k][0]}</button>`).join('');
+function py(s){if(s)snd.c();const p=P[pk],iv=$('iv').checked&&pk=='b',bl=$('bl').checked,w=iv?[25,100]:p[1],l=iv?L.slice(0,2):p[2];$('ivl').style.display=pk=='b'?'':'none';$('pv').innerHTML=w.map((x,i)=>`<div class="pb" style="width:${bl&&i>0?x*.55:x}%;background:${C[i]}" onclick="snd.s(${i})">${l[i]}</div>`).reverse().join('');$('pi').textContent=(iv?'الهرم المقلوب: العوالق النباتية تتكاثر وتؤكل بسرعة فتبدو كتلتها القائمة أقل من العوالق الحيوانية (الشكل ٣-٥ ب).':p[3])+(bl?' أثناء ازدهار الطحالب يكبر شريط العوالق النباتية في الأهرامات الثلاثة ويصغر شريط العوالق الحيوانية عن المتوقع.':'')}
+const Q=[
+['كائن حي يصنع غذاءه بنفسه من جزيئات غير عضوية بسيطة، يسمى:',['مستهلكًا ثانويًا','ذاتي التغذية','محلِّلًا','غير ذاتي التغذية'],1,'AO1','المنتجات كائنات ذاتية التغذية تصنع غذاءها بنفسها.'],
+['تحدث عملية التمثيل الضوئي في المحيط ضمن:',['منطقة المنحدر الحراري','منطقة قاع المحيط','المنطقة الضوئية','منطقة المياه العميقة'],2,'AO1','لا يخترق الضوء الماء إلى أعمق من نحو 200 م.'],
+['كيف تحصل الكائنات قرب الفوهات المائية الحرارية على الطاقة؟',['بالتمثيل الضوئي لوجود ضوء كافٍ','بالتمثيل الكيميائي','بالافتراس على طحالب الكلب فقط','بامتصاص ضوء الشمس المنعكس'],1,'AO1','بكتيريا التمثيل الكيميائي تستخدم طاقة مواد مثل كبريتيد الهيدروجين.'],
+['ما سبب نقص الأكسجين المذاب أثناء ازدهار الطحالب؟',['تنتجه الطحالب بكثرة فيتصاعد إلى الهواء الجوي بسرعة','تمتصه الأسماك كله أثناء عملية التمثيل الضوئي نهارًا','يتحول كله إلى نترات وفوسفات ذائبة في ماء المحيط','تستهلكه البكتيريا في تحلل الطحالب الميتة'],3,'AO2','تتكاثر البكتيريا المحللة وتستهلك الأكسجين الذائب فيقل.'],
+['ما أثر غياب نجم البحر المفترس عن غابة طحلب الكلب؟',['تزداد أعداد بلح البحر وتتضرر الغابة','تقل أعداد بلح البحر فتنمو الغابة بسرعة أكبر','لا يتغير شيء لأن بلح البحر لا يتغذى على الكلب','تزداد أعداد الأسماك المفترسة فتختفي الغابة'],0,'AO2','نجم البحر يضبط أعداد بلح البحر وقنافذ البحر والمحار.'],
+['تبلغ كفاءة انتقال الطاقة بين المستويات الغذائية تقريبًا:',['حوالي 1% فقط من الطاقة','حوالي 50% من الطاقة المتاحة','حوالي 10%','حوالي 90% من الطاقة المتاحة'],2,'AO1','100% ← 10% ← 1% ← 0.1% عبر المستويات.'],
+['دخلت المستهلكات الثانوية 598 kJ/m²/year وانتقل منها 67 إلى المحللات (الشكل ٣-٧). كم الطاقة المفقودة بالتنفس X؟',['531','665','598 فقط','67 فقط'],0,'AO2','مجموع الدخل = مجموع الخروج، إذن X = 598 − 67 = 531.'],
+['النسبة المئوية للطاقة المنتقلة من الشمس إلى المنتجات (72567 من 1.6×10⁶) تساوي تقريبًا:',['45.4% من الطاقة الساقطة','0.454% من الطاقة الساقطة','10% كما في كل المستويات','4.54%'],3,'AO2','(72567 ÷ 1.6×10⁶) × 100 = 4.54%.'],
+['أي الأهرامات الثلاثة لا يكون مقلوبًا أبدًا؟',['هرم الأعداد','هرم الكتلة الحيوية','هرم الطاقة','جميعها قد تُقلب'],2,'AO1','الطاقة تتناقص دائمًا عبر السلسلة، فلا يُقلب هرمها.'],
+['لماذا قد يظهر هرم الكتلة الحيوية مقلوبًا؟',['لأن العوالق النباتية أكبر حجمًا من العوالق الحيوانية بكثير','لأن العوالق النباتية تتكاثر وتؤكل بسرعة','لأن المحللات تحتل قاعدة الهرم دائمًا في النظم البحرية','لأن الطاقة تزداد عند الانتقال إلى المستوى التالي'],1,'AO2','كتلتها القائمة صغيرة لكن معدل إنتاجها مرتفع.']];
+function rq(){if(qi>=Q.length)return fin();const q=Q[qi];$('qz').innerHTML=`<div class="pg"><i style="width:${qi/Q.length*100}%"></i></div><p><b>السؤال ${qi+1} من ${Q.length}</b> (${q[3]})</p><h3>${q[0]}</h3>`+q[1].map((o,i)=>`<button class="op" onclick="an(${i})">${o}</button>`).join('')+'<p id="fb"></p>'}
+function an(i){if(lk)return;lk=1;const q=Q[qi],b=document.querySelectorAll('.op');b[q[2]].classList.add('ok');ao[q[3]][1]++;if(i==q[2]){sc++;ao[q[3]][0]++;snd.ok()}else{b[i].classList.add('no');snd.no()}$('fb').innerHTML=q[4]+'<br><button class="bt" onclick="nx()">'+(qi==Q.length-1?'عرض النتيجة':'السؤال التالي')+'</button>'}
+function nx(){qi++;lk=0;snd.c();rq()}
+function fin(){const n=Q.length,g=sc/n;g>=.7?snd.win():snd.ok();$('qz').innerHTML=`<div class="rs"><h3>مدرسة الخليل بن عبد الله <bdi>11-12</bdi></h3><p>إعداد: رياض بن ناجي بن عمر</p><p style="font-size:44px;margin:0;font-weight:900">${sc} / ${n}</p><p dir="ltr">AO1: ${ao.AO1[0]} / ${ao.AO1[1]} · AO2: ${ao.AO2[0]} / ${ao.AO2[1]}</p><p>${g>=.9?'🏆 ممتاز! أتقنت علاقات التغذية':g>=.7?'🌟 جيد جدًا، راجع الأسئلة التي أخطأت فيها':g>=.5?'👍 مستوى مقبول، أعد قراءة الأهرامات وانتقال الطاقة':'📘 أعد دراسة الدرس ثم حاول مرة أخرى'}</p><button class="bt" onclick="qi=sc=lk=0;ao={AO1:[0,0],AO2:[0,0]};rq()">إعادة التقويم</button></div>`}
+en();py();rq();sh(0,1);
+</script></body></html>
